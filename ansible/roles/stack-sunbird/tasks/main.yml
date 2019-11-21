@@ -42,3 +42,6 @@
 
   - include: learning-service.yml
     when: deploy_learning is defined
+
+  - include: druid-proxy-api.yml
+    when: deploy_druid_proxy_api is defined  
